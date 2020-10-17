@@ -47,5 +47,12 @@ $num7=12;
 var_dump($num7);
 if(is_int($num7)){ //check variable is integer?
 echo "Your variable is Int ";
+echo "<hr/>";
+}
+
+$num8=NULL;
+var_dump($num8);
+if(is_null($num8)){ //check variable is null?
+echo "Your variable is NULL ";
 }
 ?>
